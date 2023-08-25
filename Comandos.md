@@ -104,7 +104,7 @@ git rebase "branch"
 git config --list
 ```
 - Muestra la configuracion global de tu git
-### PROCESO DE UN PUSH ADD ORIGIN “BRANCH”
+### Proceso de un push add origin "branch"
 ```
 git add . 
 git commit -m "(agregando tu comentario)"
