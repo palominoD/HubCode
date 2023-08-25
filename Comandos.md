@@ -100,6 +100,10 @@ git pull --rebase origin main
 git rebase "branch"
 ```
 - Nos permite hacer cambios silenciosos, funciona como un merge pero pega las ramas de un punto a otro por decir si hacemos cambios en branch2, hacemos commits, despues queremos que esos cambios y commits se pasen a main, debemos hacer un *git rebase main*, esto trae toda la historia de main a branch1, despues pasamos a main y desde ese punto hacemos un *git rebase branch1* elimina branch1, lo cual genera una sola historia de commits y es como si no hubieramos echo esos cambios en otra rama, si no que siempre se trabajo en main.
+```
+git config --list
+```
+- Muestra la configuracion global de tu git
 ### PROCESO DE UN PUSH ADD ORIGIN “BRANCH”
 ```
 git add . 
