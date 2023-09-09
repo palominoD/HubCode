@@ -18,7 +18,7 @@ git config –global user.mail "email@example.some"
 ```
 git config –global user.name "yourNAME|nickName"
 ```
-- Crea el nombre de quie esta haciendo estos cambios (esto se hace siempre al instalar git).
+- Crea el nombre de quien esta haciendo estos cambios (esto se hace siempre al instalar git).
 ```
 git init 
 ```
@@ -69,6 +69,10 @@ git  remote add origin “URL”
 - Toma el url que le indicas para poder hacer el push origin master O main. 
 ```
 git push origin main
+```
+- Toma el url que le indicas para poder hacer el push origin master O main. 
+```
+git pull origin main
 ```
 - Lleva lo que tiene en tu repositorio local al repositorio en github.
 ```
@@ -123,7 +127,7 @@ ssh-keygen -t rsa -b 4096 -C *"yourEmail@some.com"
 
 > Tenemos que revisar que el "agente evaluador de SSH" este activo,despues agregar la llave que creamos, revisar el contenido de la llave publica, que es la que se debe enviar a git hub, mientras que la llave privavda debe de quedarse en tu computadora siempre. despues de esto podemos hacer pull and push desde el protocolo SSH.
 ```
-eval *"$(ssh-agent -s)"
+eval "$(ssh-agent -s)"
 ```
 - Nos ayuda a revisar que el agente de SSH este activo.
 ```
@@ -131,13 +135,12 @@ cd ~/.ssh
 ```
 - Nos lleva a la carpeta donde estan las llaves, ambas tienen el mismo nombre id_rsa pero la llave publica es la que tiene la terminacion .pub mientras que la privada no tiene extencion.
 ```
- cat id_rsa.pub
-```
-- Nos muestra el contenido de la llave publica, este se debe copiar para despues pasarlo a git hub 
-```
 ssh-add ~/.ssh/id_rsa
 ```
 - Agrega la llave privada que creamos a el repositorio local.
-
-> Solo queda agregar la llave publica a el apartado de configuraciones/laves ssh.
+```
+ cat id_rsa.pub
+```
+- Nos muestra el contenido de la llave publica, este se debe copiar para despues pasarlo a git hub 
+> para agregar la llave publica a el apartado de configuraciones/llaves ssh.
 Basicamente se crea las llaves, una publica ***(id_rsa.pub)***, una privada ***(id_rsa)***, la priva es de tu entorno local, la publica va a git hub, debemos verificar que el agente de SSH este activo, agregar la llave privada al entorno local y copiar el contenido de la llave publica a git hub.
