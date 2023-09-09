@@ -5,11 +5,12 @@
 comando
 ```
 - Descripcion de que podemos hacer con el comando.
-> NOTAS.
-Aquello que esta entre comillas puedes considerarlo una variable. “ejemplo”, aquello que tiene comillas y asterisco lleva forzosamente las comillas. **”ejemplo”* aquí si tenemos que poner las comillas en el comando.
-Debido a el movieminto #BlackLifeMater el estandar dela idustria a tratado de cambiar palabras referentes a este tema. Por ejemplo.
-Reemplazar la palabra "master" con "main" o "primary".Con lo que, la rama principal de un repositorio de Git se llama ahora "main" en lugar de "master".
-Reemplazar la palabra "slave" con "replica" o "secondary". Por ejemplo, un servidor esclavo en un clúster de servidores se llama ahora "replica" o "secondary" en lugar de "slave".
+> NOTAS:<br> 
+Aquello que está entre comillas puedes considerarlo una variable. “ejemplo”, aquello que tiene comillas y asterisco lleva forzosamente las comillas. **”ejemplo”* Aquí sí tenemos que poner las comillas en el comando. <br> 
+Debido a el movimiento #BlackLifeMater el estándar de la industria ha tratado de cambiar palabras referentes a este tema. Por ejemplo. <br>
+Se reemplaza la palabra "master" con "main" o "primary".Con lo que, la rama principal de un repositorio de Git se llama ahora "main" en lugar de "master".
+Se reemplaza la palabra "slave" con "réplica" o "secondary". Por ejemplo, un servidor esclavo en un clúster de servidores se llama ahora "réplica" o "secondary" en lugar de "slave".
+
 ### Comandos
 ```
 git config –global user.mail "email@example.some"
