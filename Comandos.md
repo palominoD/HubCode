@@ -69,11 +69,11 @@ git  remote add origin “URL”
 ```
 - Toma el url que le indicas para poder hacer el push origin master O main. 
 ```
-git push origin main
-```
-- Toma el url que le indicas para poder hacer el push origin master O main. 
-```
 git pull origin main
+```
+- Es una buena practica traer los cambios de un repositorio remoto a tu re positorio local, asi que antes de hacer push deberias de hacer un pull y resolver lo conflictos, si es que los hay. <br> Trae los cambio de un repositorio remot a tu repositorio local
+```
+git push origin main
 ```
 - Lleva lo que tiene en tu repositorio local al repositorio en github.
 ```
