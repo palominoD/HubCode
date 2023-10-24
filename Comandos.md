@@ -13,11 +13,11 @@ Se reemplaza la palabra "slave" con "réplica" o "secondary". Por ejemplo, un se
 
 ### Comandos
 ```
-git config –global user.mail "email@example.some"
+git config --global user.mail "email@example.some"
 ```
 - Crea tu email para saber quien esta mandado el cambio (esto se hace siempre al instalar git).
 ```
-git config –global user.name "yourNAME|nickName"
+git config --global user.name "yourNAME|nickName"
 ```
 - Crea el nombre de quien esta haciendo estos cambios (esto se hace siempre al instalar git).
 ```
