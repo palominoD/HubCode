@@ -130,7 +130,8 @@ ssh-keygen -t rsa -b 4096 -C *"yourEmail@some.com"
 ```
 eval "$(ssh-agent -s)"
 ```
-- Nos ayuda a revisar que el agente de SSH este activo.
+> Copia el comando como esta.
+- Nos ayuda a revisar que el agente de SSH este activo. 
 ```
 cd ~/.ssh
 ```
